@@ -7,10 +7,10 @@ Third-Party APIs Challenge: Work Day Scheduler
 
 File Structure
 root
-##|--index
-##|--readme
-##|--app gif
-   ###|-- assets
+|--index
+|--readme
+--app gif
+   |-- assets
 assets
 |-- assets
     |-- css
