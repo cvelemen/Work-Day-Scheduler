@@ -1,6 +1,7 @@
 // Display today's day and date
-var todayDate = moment().format('dddd, MMM Do YYYY');
-$("#currentDay").html(todayDate);
+var todayDate = new Date()
+console.log(todayDate.getHours());
+$("#currentDay").html(todayDate.toString());;
 
 $(document).ready(function () {
     // saveBtn click listener 
@@ -41,6 +42,7 @@ $(document).ready(function () {
         })
     }
 
+    setInterval(timeTracker, 15000)
     // Get item from local storage if any
     $("#hour8 .description").val(localStorage.getItem("hour8"));
     $("#hour9 .description").val(localStorage.getItem("hour9"));
